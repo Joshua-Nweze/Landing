@@ -1,0 +1,35 @@
+.hero{
+    /* height: 90vh; */
+    background: linear-gradient(to right, rgba(39, 50, 52, 0.8) 0%, rgba(66, 83, 92, 0.8) 100%), url(../img/hero.jpg);
+    background-size: cover;
+}
+
+.hero-text{
+    padding-top: 150px;
+    font-size: 40px;
+    /* line-height: 30px; */
+    color: ghostwhite;
+    font-weight: 700;
+}
+
+.hero-text > p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.learn-more{
+    background: transparent;
+    color: ghostwhite;
+    border: 1px solid ghostwhite;
+    width: fit-content;
+    padding: 7px 17px;
+    border-radius: 3px;
+    margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-text{
+        padding: 50px 0;
+        font-size: 20px;
+    }
+}
