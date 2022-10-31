@@ -12,22 +12,29 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <!-- Uncomment in you want to use a logo instead -->
+          <!-- <a class="navbar-brand" href="#">
+            <img src="" alt="">
+          </a> -->
+          <a class="navbar-brand text-light" href="#">Sing</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-light" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link text-light" href="#">Link</a>
               </li>
             </ul>
           </div>
@@ -40,11 +47,11 @@
         <div class="container col-lg-6 justify-content-start">
             <div class="hero-text">
                 <h1 class="text-uppercase">Are you a talented singer?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio.</p>
             </div>
-            <div class="learn-more">
+            <a href="#" class="learn-more">
                 Learn more
-            </div>
+            </a>
 
         </div>
       </section>
@@ -52,8 +59,8 @@
 
       <!-- What we offer -->
       <section>
-        <div class="container-fluid bg-dark">
-            <div class="container col-lg-5 text-center text-light">
+        <div class="container-fluid bg-dark pt-5 pb-5">
+            <div class="container col-lg-5 text-center text-light mt-5 mb-5">
                 <h1>What we offer</h1>
                 <div>Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga</div>
                 <div class="">
@@ -63,6 +70,78 @@
         </div>
       </section>
       <!-- What we offer end -->
+
+      <!-- Services -->
+      <section class="conatiner-fluid">
+        <div class="row text-center justify-content-center mt-5 mb-5">
+            <h1 class="mt-5 mb-4">Services</h1>
+            <div class="col-lg-3 col-md-6 service">
+                <i class="bi bi-mic-fill fs-1 text-primary"></i>
+                <div>
+                    Cras porttitor maximus ipsum, vel finibus elit bibendum ac. Donec in imperdiet diam, sed egestas urna.
+                </div> 
+            </div>
+            <div class="col-lg-3 col-md-6 service">
+                <i class="bi bi-music-note-beamed fs-1 text-success"></i>
+                <div>
+                    Cras convallis scelerisque lorem, eu facilisis nunc tristique non.
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 service">
+                <i class="bi bi-boombox-fill fs-1 text-danger"></i>
+                <div>
+                    Etiam viverra ornare mi, eu blandit lectus feugiat eu. Nullam ac quam faucibus, facilisis diam nec, sagittis sem.
+                </div>
+            </div>
+          </div>
+      </section>
+      <!-- Services end -->
+
+      <!-- Contact -->
+      <div class="row container justify-content-center">
+            <div class="col-lg-6 contact-details">
+                <h1>Contact</h1>
+                <div class="row contact-item">
+                    <i class="col-lg-1 col-sm-12 bi bi-geo-alt fs-1"></i>
+                    <span class="col-lg-11 col-sm-12 align-self-center fs-5">
+                        123 Hillview road,
+                        Satelite town
+                    </span>
+                </div>
+                <div class="row contact-item">
+                    <i class="col-lg-1 bi bi-telephone fs-1"></i>
+                    <span class="col-lg-11 align-self-center fs-5">
+                        +123 4567 890
+                    </span>
+                </div>
+                <div class="row contact-item">
+                    <i class="col-lg-1 col-sm-12 bi bi-envelope fs-1"></i>
+                    <span class="col-lg-11 col-sm-12 align-self-center fs-5">
+                        company@gmail.com
+                    </span>
+                </div>
+            </div>
+        
+            <div class="col-md-6">
+                <h5>Send us a mail and we will reply ASAP</h5>
+                <div class="mb-3 mt-4">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Send</button>
+                </div>
+            </div>
+      </div>
+      <!-- Contatct ends -->
     
 
 <!-- Bootstrap JavaScript bundle -->

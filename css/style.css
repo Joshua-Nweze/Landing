@@ -1,5 +1,13 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #464c56;
+}
+
 .hero{
-    /* height: 90vh; */
+    height: 90vh;
     background: linear-gradient(to right, rgba(39, 50, 52, 0.8) 0%, rgba(66, 83, 92, 0.8) 100%), url(../img/hero.jpg);
     background-size: cover;
 }
@@ -25,11 +33,30 @@
     padding: 7px 17px;
     border-radius: 3px;
     margin-bottom: 200px;
+    text-decoration: none;
+}
+
+.learn-more:hover{
+    color: ghostwhite;
+    background-color: #464c56;
 }
 
 @media only screen and (max-width: 480px) {
     .hero-text{
         padding: 50px 0;
         font-size: 20px;
+    }
+
+    .service{
+        margin-bottom: 15px;
+    }
+
+    .contact-details{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .contact-item{
+        margin-bottom: 20px;
     }
 }
