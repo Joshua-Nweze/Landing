@@ -8,7 +8,7 @@ body{
 }
 
 .hero{
-    height: 90vh;
+    height: 600px;
     background: linear-gradient(to right, rgba(39, 50, 52, 0.8) 0%, rgba(66, 83, 92, 0.8) 100%), url(../img/hero.jpg);
     background-size: cover;
 }
@@ -87,8 +87,10 @@ body{
     .contact-item{
         margin-bottom: 20px;
     }
+}
 
-    .socials{
-        margin-top: 100px;
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    .hero-text{
+        padding: 50px 0;
     }
 }
