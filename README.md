@@ -16,7 +16,7 @@ After downloading, simply edit the HTML and CSS files included with the theme in
 
 ## Bugs and Issues
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/Joshua-Nweze/Landing) here on GitHub.
+Have a bug or an issue with this theme? [Open a new issue](https://github.com/Joshua-Nweze/Landing/issues) here on GitHub.
 
 ## Copyright and License
 
