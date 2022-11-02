@@ -7,6 +7,10 @@ body{
     background-color: #464c56;
 }
 
+.nav-link:hover{
+   text-decoration: overline;
+}
+
 .hero{
     height: 600px;
     background: linear-gradient(to right, rgba(39, 50, 52, 0.8) 0%, rgba(66, 83, 92, 0.8) 100%), url(../img/hero.jpg);
