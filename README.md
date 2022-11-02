@@ -4,6 +4,10 @@
 
 Landing is a free website theme. Landing is released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
+## Preview
+
+![Landing preview](https://github.com/Joshua-Nweze/Landing/blob/main/img/screenshots/screenshot.jpg)
+
 ## Download and Installation
 
 To begin using this theme, follow any of these steps:
