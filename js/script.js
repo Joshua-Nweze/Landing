@@ -17,7 +17,8 @@ let submit = document.getElementById('submit');
 let regEx = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
 
 
-submit.addEventListener('click', () => {
+submit.addEventListener('click', (e) => {
+    e.preventDefault();
     if (!fullName.value) {
         fullName.classList.add('error');
 
